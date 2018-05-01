@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:orientation="vertical" >  
+  
+    <org.cocos2dx.lib.Cocos2dxEditText 
+        android:id="@+id/textField"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@null"/>
+    
+    <org.cocos2dx.lib.Cocos2dxGLSurfaceView  
+        android:id="@+id/game_gl_surfaceview"  
+        android:layout_width="fill_parent"  
+        android:layout_height="fill_parent" /> 
+ 
+
+	 <RelativeLayout 
+	        android:id="@+id/ADLayout"  
+	        android:layout_width="fill_parent"  
+	        android:layout_height="wrap_content"  >  
+	  
+	        <com.google.ads.AdView  
+	            android:id="@+id/adView"  
+	            android:layout_width="wrap_content"  
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"  
+           		android:layout_centerHorizontal="true"   
+	            ads:adSize="BANNER"  
+	            ads:adUnitId="a1528edd5b782c3"  
+	            ads:loadAdOnCreate="false" />  
+	            
+	         <com.google.ads.AdView  
+	            android:id="@+id/adViewBigSize"  
+	            android:layout_width="wrap_content"  
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"  
+           		android:layout_centerHorizontal="true"   
+	            ads:adSize="IAB_BANNER"  
+	            ads:adUnitId="a1528edd5b782c3"  
+	            ads:loadAdOnCreate="false" />  
+	    </RelativeLayout> 
+	     
+</FrameLayout>    

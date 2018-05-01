@@ -1,0 +1,13 @@
+# view res/layout/main.xml #generated:25
+# view res/layout/main.xml #generated:35
+-keep class com.google.ads.AdView { <init>(...); }
+
+# view res/layout/main.xml #generated:8
+-keep class org.cocos2dx.lib.Cocos2dxEditText { <init>(...); }
+
+# view res/layout/main.xml #generated:14
+-keep class org.cocos2dx.lib.Cocos2dxGLSurfaceView { <init>(...); }
+
+# view AndroidManifest.xml #generated:13
+-keep class raiden.sky.force.striker.lightning.air.force.FireTruckFree { <init>(...); }
+

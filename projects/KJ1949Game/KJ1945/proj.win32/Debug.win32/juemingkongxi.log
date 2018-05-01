@@ -1,0 +1,90 @@
+﻿生成启动时间为 2015/5/15 星期五 22:15:46。
+     1>项目“E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\KJ1949Game\KJ1945\proj.win32\juemingkongxi.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1395,5): warning : The referenced project '..\..\..\CocosDenshion\proj.win32\CocosDenshion.vcxproj' does not exist.
+     1>C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets(1395,5): warning : The referenced project '..\..\..\extensions\proj.win32\libExtensions.vcxproj' does not exist.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\cocos2dx" /I"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\cocos2dx\include" /I"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\cocos2dx\kazmath\include" /I"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\cocos2dx\platform\win32" /I"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\cocos2dx\platform\third_party\win32\OGLES" /I..\Classes /I"C:\Program Files\Java\jdk1.8.0_45\include\win32" /I"C:\Program Files\Java\jdk1.8.0_45\include" /I"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\CocosDenshion\include" /I..\Classes\ccxGUI\ccxControl /I..\Classes\ccxGUI /I..\Classes\dialog /I..\Classes\data /I..\Classes\common /I..\Classes\ZG /I"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\extensions" /I"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\external" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\ArmySprite.cpp ..\Classes\Assess.cpp ..\Classes\Boss.cpp ..\Classes\BossFive.cpp ..\Classes\BossFour.cpp ..\Classes\BossSeven.cpp ..\Classes\BossSix.cpp ..\Classes\BossThree.cpp ..\Classes\BossTwo.cpp ..\Classes\Bullet.cpp ..\Classes\Drone.cpp ..\Classes\EnemySprite.cpp ..\Classes\GameLayer.cpp ..\Classes\GameScene.cpp ..\Classes\GlobalData.cpp ..\Classes\HelicopterSprite.cpp ..\Classes\HelloWorldScene.cpp ..\Classes\ItemSprite.cpp ..\Classes\LevelLayer.cpp ..\Classes\LevelScene.cpp ..\Classes\MainUILayer.cpp ..\Classes\MainUIScene.cpp ..\Classes\MissionLayer.cpp ..\Classes\MissionScene.cpp ..\Classes\PlayerSprite.cpp ..\Classes\SelectLayer.cpp ..\Classes\SelectScene.cpp ..\Classes\ShopLayer.cpp ..\Classes\SuperBomb.cpp main.cpp
+         main.cpp
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\proj.win32\main.cpp(18): warning C4305: “参数”: 从“double”到“float”截断
+         SuperBomb.cpp
+         ShopLayer.cpp
+         SelectScene.cpp
+         SelectLayer.cpp
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\selectlayer.cpp(181): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\selectlayer.cpp(202): warning C4018: “>”: 有符号/无符号不匹配
+         PlayerSprite.cpp
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\playersprite.cpp(812): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\playersprite.cpp(835): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\playersprite.cpp(840): warning C4018: “<”: 有符号/无符号不匹配
+         MissionScene.cpp
+         MissionLayer.cpp
+         MainUIScene.cpp
+         MainUILayer.cpp
+         LevelScene.cpp
+         LevelLayer.cpp
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\levellayer.cpp(119): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\levellayer.cpp(140): warning C4018: “>”: 有符号/无符号不匹配
+         ItemSprite.cpp
+         HelloWorldScene.cpp
+         HelicopterSprite.cpp
+         GlobalData.cpp
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\globaldata.cpp(214): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\globaldata.cpp(224): warning C4018: “>”: 有符号/无符号不匹配
+         GameScene.cpp
+         GameLayer.cpp
+     1>e:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\kj1949game\kj1945\classes\gamelayer.cpp(804): warning C4018: “<”: 有符号/无符号不匹配
+         EnemySprite.cpp
+         Drone.cpp
+         正在生成代码...
+         正在编译...
+         Bullet.cpp
+         BossTwo.cpp
+         BossThree.cpp
+         BossSix.cpp
+         BossSeven.cpp
+         BossFour.cpp
+         BossFive.cpp
+         Boss.cpp
+         Assess.cpp
+         ArmySprite.cpp
+         AppDelegate.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\juemingkongxi.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\\" opengl32.lib glew32.lib libcocos2d.lib libExtensions.lib libcurl_imp.lib pthreadVCE2.lib libwebp.lib libCocosDenshion.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\juemingkongxi.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\juemingkongxi.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\ArmySprite.obj
+         Debug.win32\Assess.obj
+         Debug.win32\Boss.obj
+         Debug.win32\BossFive.obj
+         Debug.win32\BossFour.obj
+         Debug.win32\BossSeven.obj
+         Debug.win32\BossSix.obj
+         Debug.win32\BossThree.obj
+         Debug.win32\BossTwo.obj
+         Debug.win32\Bullet.obj
+         Debug.win32\Drone.obj
+         Debug.win32\EnemySprite.obj
+         Debug.win32\GameLayer.obj
+         Debug.win32\GameScene.obj
+         Debug.win32\GlobalData.obj
+         Debug.win32\HelicopterSprite.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\ItemSprite.obj
+         Debug.win32\LevelLayer.obj
+         Debug.win32\LevelScene.obj
+         Debug.win32\MainUILayer.obj
+         Debug.win32\MainUIScene.obj
+         Debug.win32\MissionLayer.obj
+         Debug.win32\MissionScene.obj
+         Debug.win32\PlayerSprite.obj
+         Debug.win32\SelectLayer.obj
+         Debug.win32\SelectScene.obj
+         Debug.win32\ShopLayer.obj
+         Debug.win32\SuperBomb.obj
+         Debug.win32\main.obj
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         juemingkongxi.vcxproj -> E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\Debug.win32\juemingkongxi.exe
+     1>已完成生成项目“E:\完整编译的游戏项目\绝命空袭\绝命空袭-2.2.2完整工程\cocos2d-x-2.2.2\cocos2d-x-2.2.2\projects\KJ1949Game\KJ1945\proj.win32\juemingkongxi.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:52.70
